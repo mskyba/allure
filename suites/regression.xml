@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="HealsCheck" verbose="1" >
+<suite name="HealthCheck" verbose="1" >
     <test name="Include me" >
         <classes>
-            <class name="healscheck.IncludeMe" />
+            <class name="healthcheck.IncludeMe" />
         </classes>
     </test>
     <test name="Selenide test">

@@ -1,6 +1,5 @@
-package healscheck;
+package healthcheck;
 
-import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import steps.HealsCheckSteps;
@@ -13,4 +12,5 @@ public class IncludeMe {
         Assert.assertTrue(healsCheckSteps.checkLoginAndPassword("qwertyu", "asdfghj"));
         Assert.assertTrue(healsCheckSteps.checkLoginAndPassword("foo", "bar"));
     }
+
 }
