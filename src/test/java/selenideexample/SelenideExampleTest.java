@@ -32,6 +32,8 @@ public class SelenideExampleTest {
 
 
 }
+
+
 @Test
     @Step(value="Logging Out")
     public void loggingOut() {
